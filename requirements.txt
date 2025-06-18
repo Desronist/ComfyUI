@@ -1,10 +1,12 @@
 comfyui-frontend-package==1.22.2
 comfyui-workflow-templates==0.1.29
 comfyui-embedded-docs==0.2.2
-torch
+
+torch==2.2.2+cu118
+torchvision==0.17.2+cu118
+torchaudio==2.2.2+cu118
 torchsde
-torchvision
-torchaudio
+
 numpy>=1.25.0
 einops
 transformers>=4.28.1
@@ -21,7 +23,7 @@ psutil
 alembic
 SQLAlchemy
 
-#non essential dependencies:
+# Non-essential
 kornia>=0.7.1
 spandrel
 soundfile
